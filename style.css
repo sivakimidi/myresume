@@ -1,0 +1,95 @@
+body{
+  background:#ddd;
+  border: 3px solid black;
+}
+.flex_main{
+  display:flex;
+  flex-direction: row;
+
+}
+.profile_child{
+  width: 30%;
+  background-color: #266da4;
+  padding: 2%;
+  margin: 2%;
+  height: 50%;
+border: 3px solid black;
+}
+.content_child{
+  width: 70%;
+  background-color: #42a476;
+  padding: 2%;
+    margin: 2%;
+    border: 3px solid black;
+}
+h1,h2,h3,h4{text-align: center;}
+img{
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #ddd;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+@media only screen and (min-width:320px) and (max-width:468px){
+  .flex_main{
+    display:flex;
+    flex-direction:column;
+    border: 3px solid black;
+  }
+  .profile_child{
+    width:92%;
+    background-color:#fff;
+    padding:2%;
+    margin:2%;
+    border: 3px solid black;
+  }
+  .content_child{
+    width:92%;
+    background-color:#fff;
+    padding:2%;
+    margin:2%;
+    border: 3px solid black;
+  }
+
+}
+@media only screen and (min-width:469px) and (max-width:768px){
+  .flex_main{
+    display:flex;
+    flex-direction:column;
+
+  }
+  .profile_child{
+    width:92%;
+    background-color:#fff;
+    padding:2%;
+    margin:2%;
+  }
+  .content_child{
+    width:92%;
+    background-color:#fff;
+    padding:2%;
+    margin:2%;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .flex_main{
+    display:flex;
+    flex-direction:row;
+
+  }
+  .profile_child{
+    width:92%;
+    background-color:#fff;
+    padding:2%;
+    margin:2%;
+  }
+  .content_child{
+    width:92%;
+    background-color:#fff;
+    padding:2%;
+    margin:2%;
+  }
+}
