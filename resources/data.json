@@ -1,29 +1,47 @@
 {
   "basics":{
-    "name":"charan",
-    "role":"student",
-    "mobile number":"138785509867",
-    "email":"kallapallimadhucharan@gmail.com"
+    "name":"sam" ,
+    "age":"05" ,
+    "role":"student" ,
+    "mobile no":"1234567890" ,
+    "email":"1234@gmail.com"
   },
   "career":{
     "objective":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
-
   },
-  "education":[
+  "education": [
     {
-      "degree":"B-tech(copmuter science and engineering)",
-      "college":"sir cr reddy college",
-      "data":["2015-19","81%"]
+      "degree":"B-tech(cse)",
+      "college":"sir cr reddy college of engineering",
+      "data":["2015-19","74%"]
     },
     {
-    "degree":"Board of intermediate",
-    "college":"Aditya junior college",
-    "data":["2013-15","97%"]
-  },
-  {
-    "degree":"Secondary school",
-    "college":"GHS yeleswaram",
-    "data":["2012-13","98%"]
-  }
+      "degree":"Board of intermediate(m.p.c)",
+      "college":"narayana jr college",
+      "data":["2013-15","90%"]
+    },
+    {
+      "degree":"Board of secondary education(ssc)",
+      "college":"little buds school",
+      "data":["2012-13","9.0"]
+    }
+  ],
+  "skills":[
+    {
+      "name":"languages",
+      "info":["c","c++","java","r"]
+    },
+    {
+      "name":"operating systems",
+      "info":["unix","windows","mac","fedora"]
+    },
+    {
+      "name":"web technologies",
+      "info":["html","css","javascript","ajax"]
+    },
+    {
+      "name":"frameworks",
+      "info":["bootstrap","code-igniter","semantic -ui",".net"]
+    }
   ]
 }
