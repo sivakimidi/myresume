@@ -1,12 +1,29 @@
 {
   "basics":{
-    "name":"krishna",
+    "name":"charan",
     "role":"student",
-    "mobile":"9999999",
-    "email" :"crr@gmail.com"
+    "mobile number":"138785509867",
+    "email":"kallapallimadhucharan@gmail.com"
   },
   "career":{
-    "objective":"o pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
-    
+    "objective":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+
+  },
+  "education":[
+    {
+      "degree":"B-tech(copmuter science and engineering)",
+      "college":"sir cr reddy college",
+      "data":["2015-19","81%"]
+    },
+    {
+    "degree":"Board of intermediate",
+    "college":"Aditya junior college",
+    "data":["2013-15","97%"]
+  },
+  {
+    "degree":"Secondary school",
+    "college":"GHS yeleswaram",
+    "data":["2012-13","98%"]
   }
+  ]
 }
